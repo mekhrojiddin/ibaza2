@@ -28,7 +28,7 @@ class _ProfileMainState extends State<ProfileMain> {
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 60, 20, 0),
               child: Container(
-                width: 370,
+                width: 350,
                 height: 70,
                 decoration: BoxDecoration(color: Colors.transparent),
                 child: Row(
@@ -63,7 +63,6 @@ class _ProfileMainState extends State<ProfileMain> {
                     Gap(10),
                     Text(
                       context.watch<ProfileBloc>().state.name!.name ?? 'User',
-                      
                     ),
                     Gap(90),
                     SvgPicture.asset(AppIcons.right)
@@ -116,7 +115,7 @@ class _ProfileMainState extends State<ProfileMain> {
             ),
             Gap(20),
             Container(
-              width: 390,
+              width: 360,
               height: 55,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(12)),
@@ -126,14 +125,14 @@ class _ProfileMainState extends State<ProfileMain> {
                   SvgPicture.asset(AppIcons.yuriqnoma),
                   Gap(10),
                   Text("Yuriqnoma"),
-                  Gap(220),
+                  Gap(180),
                   SvgPicture.asset(AppIcons.right)
                 ],
               ),
             ),
             Gap(20),
             Container(
-              width: 390,
+              width: 350,
               height: 55,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(12)),
@@ -143,14 +142,14 @@ class _ProfileMainState extends State<ProfileMain> {
                   SvgPicture.asset(AppIcons.about),
                   Gap(10),
                   Text("Ilova haqida"),
-                  Gap(210),
+                  Gap(180),
                   SvgPicture.asset(AppIcons.right)
                 ],
               ),
             ),
             Gap(20),
             Container(
-              width: 390,
+              width: 350,
               height: 55,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(12)),
@@ -160,14 +159,14 @@ class _ProfileMainState extends State<ProfileMain> {
                   SvgPicture.asset(AppIcons.rulls),
                   Gap(10),
                   Text("Foydalanish qoidalari"),
-                  Gap(150),
+                  Gap(129),
                   SvgPicture.asset(AppIcons.right)
                 ],
               ),
             ),
-            Gap(20),
+            Gap(10),
             Container(
-              width: 390,
+              width: 350,
               height: 55,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(12)),
@@ -177,14 +176,14 @@ class _ProfileMainState extends State<ProfileMain> {
                   SvgPicture.asset(AppIcons.bonus),
                   Gap(10),
                   Text("Bonus balansi"),
-                  Gap(195),
+                  Gap(155),
                   SvgPicture.asset(AppIcons.right)
                 ],
               ),
             ),
             Gap(20),
             Container(
-              width: 390,
+              width: 350,
               height: 55,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(12)),
@@ -194,7 +193,7 @@ class _ProfileMainState extends State<ProfileMain> {
                   SvgPicture.asset(AppIcons.help),
                   Gap(10),
                   Text("Yordam"),
-                  Gap(235),
+                  Gap(220),
                   SvgPicture.asset(AppIcons.right)
                 ],
               ),

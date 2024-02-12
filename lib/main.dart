@@ -89,8 +89,8 @@ class _MainAppState extends State<MainApp> {
       create: (context) => ProfileBloc(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        
-        home: const HomeScreen(),
+
+        home: const HomePage(),
         //     SafeArea(
         //   child: Scaffold(
         //       floatingActionButton: Row(
